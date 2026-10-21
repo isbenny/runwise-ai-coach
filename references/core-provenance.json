@@ -1,0 +1,18 @@
+{
+  "rule_version": "core02-marathon-1",
+  "strategy": "byte-identical minimal reusable calculation modules; in-memory ephemeral input only; no auth/MCP/owner database shipped",
+  "sha256": {
+    "scripts/_core/garmin_ai_coach/__init__.py": "20a720c28f2aae421ba6cc1e01fd55959af39c63c61e054942c94b296d59d6af",
+    "scripts/_core/garmin_ai_coach/storage.py": "7a0485f3adaf7615b176ab9501d04d25491009104d8bfcea1b2be7fd42bca42a",
+    "scripts/_core/garmin_ai_coach/queries.py": "54f3cec5de7b5813c30cd889d78c31ca192918ea032348bb9d6d91317d6e47f7",
+    "scripts/_core/garmin_ai_coach/normalize.py": "cc58cfc7f117232b1e29b77d253cc1f291ded4ce6454f939ed4d6b6f2485049f",
+    "scripts/_core/garmin_ai_coach/repository.py": "4cac197c8b156695b43a155809d9fb2506e50db1a34569acb7aa8bd5d8946774",
+    "scripts/_core/garmin_ai_coach/quality.py": "fcef2f345154042d32d4fbd6acc8720291add5e0b7477c2548e3ddc1c6dd3944",
+    "scripts/_core/garmin_ai_coach/wb_reports.py": "ec2ec4df4923089e2ec9f3e8bc20840eb5b6026ef3f2e49282e7a9a7b70c8887",
+    "scripts/_core/garmin_ai_coach/core_analysis.py": "20e4d3e8fb8bb8c51c46b034622e60754731343d1de35aa218ca0ce22ee0f85c",
+    "scripts/_core/garmin_ai_coach/core_schema.py": "a078cee0f489eb0773447f6f6de676e619d09b47df9e4b8b192dce6773c642d6",
+    "scripts/_core/garmin_ai_coach/core_plans.py": "4f16a5a2ba55c2b5230858d2854f5928908c20f2162993ec4aa521e743dad354",
+    "scripts/_core/garmin_ai_coach/migrations/0002_m11_sources_quality.sql": "a6f729364cde4320203faf2f4705c724cf29ced2dbb9e01f63afa842a2fd5f54",
+    "scripts/_core/garmin_ai_coach/migrations/0001_initial.sql": "ab54a72e27f350a13740ba7d283ee2d4914db538b5b02682d6435f080193441c"
+  }
+}

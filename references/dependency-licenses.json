@@ -1,0 +1,65 @@
+{
+  "scope": "direct optional calculator dependency and installed required transitive dependencies; metadata inspected locally; no dependency code or binaries bundled",
+  "dependencies": [
+    {
+      "name": "jsonschema",
+      "verified_version": "4.26.0",
+      "license_expression": "MIT",
+      "license": null,
+      "distributed_in_skill": false,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "attrs",
+      "verified_version": "26.1.0",
+      "license_expression": "MIT",
+      "license": null,
+      "distributed_in_skill": false,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "jsonschema-specifications",
+      "verified_version": "2025.9.1",
+      "license_expression": "MIT",
+      "license": null,
+      "distributed_in_skill": false,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "referencing",
+      "verified_version": "0.37.0",
+      "license_expression": "MIT",
+      "license": null,
+      "distributed_in_skill": false,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "rpds-py",
+      "verified_version": "2026.9.1",
+      "license_expression": "MIT",
+      "license": null,
+      "distributed_in_skill": false,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "typing_extensions",
+      "verified_version": "4.16.0",
+      "license_expression": "PSF-2.0",
+      "license": null,
+      "distributed_in_skill": false,
+      "license_files": [
+        "LICENSE"
+      ]
+    }
+  ]
+}

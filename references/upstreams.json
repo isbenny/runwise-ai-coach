@@ -1,0 +1,19 @@
+{
+  "delivery_reference": {
+    "url": "https://github.com/xiaolouJB/ai-running-coach",
+    "scope": "delivery style only; no rules or parameters copied"
+  },
+  "garmin": {
+    "url": "https://github.com/Taxuspt/garmin_mcp",
+    "commit": "a2ca5fcac34524b83814fe2fcf3d479f8a75983f",
+    "garminconnect_dependency": "0.3.2",
+    "license": "MIT",
+    "status": "source reviewed; separate runtime and account acceptance required"
+  },
+  "coros": {
+    "mcp_url": "https://mcpcn.coros.com/mcp",
+    "resource_metadata": "https://mcpcn.coros.com/.well-known/oauth-protected-resource/mcp",
+    "authorization_metadata": "https://mcpcn.coros.com/.well-known/oauth-authorization-server",
+    "status": "unauthenticated metadata verified; authenticated tools not yet verified"
+  }
+}

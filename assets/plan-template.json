@@ -1,0 +1,11 @@
+{
+  "template_only": true,
+  "status": "uninitialized",
+  "version": null,
+  "confirmed_at": null,
+  "timezone": "Asia/Shanghai",
+  "rule_version": null,
+  "data": null,
+  "source_evidence": [],
+  "note": "空宿主计划存储封装；data必须由已核验的Core结果填写。不是有效训练处方，不能直接作为coach.py adjust的plan输入。"
+}
