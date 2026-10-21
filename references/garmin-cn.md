@@ -39,7 +39,7 @@ uv pip install --python .garmin-mcp-venv/bin/python 'git+https://github.com/Taxu
 - `GARMIN_ENABLED_TOOLS=get_activities,get_activities_by_date,get_activity,get_activity_splits`。
 - 不含GARMIN_EMAIL、GARMIN_PASSWORD或其他明文凭据；不启HTTP公网服务。
 
-仅修改用户确认的本产品项目级条目，先备份，保留其他MCP。实际tools/list须与这四项一致；工具注解不能代替真正的白名单。
+仅修改用户确认的本产品条目，先备份，保留其他MCP。优先项目级；WorkBuddy使用已核实的官方设置入口，用户级访问范围须另外说明并由本人确认，见[WorkBuddy步骤](workbuddy-desktop.md)。实际tools/list须与这四项一致；工具注解不能代替真正的白名单。
 
 授权后，先读取近期一页、最近活动详情和必要真实圈；之后按明确范围分页。`get_activities_by_date`的has_more为true必须继续或标部分完成。上游date查询页字段为distance_meters/duration_seconds，部分列表不含移动和经过时长，不能补0；详情才有moving_duration_seconds/elapsed_duration_seconds。`get_activity_splits`才是圈接口，保留每圈distance_meters和intensity_type，不按1km虚构。
 

@@ -2,13 +2,15 @@
 name: runwise-coach
 description: 通过运动手表MCP读取真实训练，分析最近活动与趋势，依据个人目标生成课表并根据反馈调整；使用宿主的持久存储延续档案。适用于用户主动要求更新训练、分析跑步或制定和调整跑步计划。
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
   rule-version: "core02-marathon-1"
 ---
 
 # 稳跑 Coach
 
 ## 安装与连接
+
+使用 WorkBuddy 桌面版时，先按 [官方导入与连接步骤](references/workbuddy-desktop.md) 操作；不把安装 Skill 等同于 MCP 已注册、信任或授权。
 
 先检查宿主是否能安装Skill、执行本地命令、加载本地stdio或远程HTTPS MCP、完成用户授权，以及是否有可跨会话读取的私有存储。**列出将新增的文件、依赖、MCP条目、权限及数据去向，取得本人确认后安装**；已有条目与本地修改不能覆盖。只有浏览器聊天能力时不能冒充已安装。
 

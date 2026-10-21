@@ -14,6 +14,6 @@
     "mcp_url": "https://mcpcn.coros.com/mcp",
     "resource_metadata": "https://mcpcn.coros.com/.well-known/oauth-protected-resource/mcp",
     "authorization_metadata": "https://mcpcn.coros.com/.well-known/oauth-authorization-server",
-    "status": "unauthenticated metadata verified; authenticated tools not yet verified"
+    "status": "WorkBuddy 5.8.3 native OAuth, tools discovery and authenticated single activity read verified; other hosts and accounts require their own verification"
   }
 }

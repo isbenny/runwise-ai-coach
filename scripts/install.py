@@ -35,7 +35,7 @@ def install(workspace,apply=False):
         if existing!=expected or any((destination/n).is_symlink() or hashlib.sha256((destination/n).read_bytes()).hexdigest()!=d for n,d in records):raise RuntimeError('EXISTING_SKILL_DIFFERS_PRESERVED')
         if (destination/'SHA256SUMS').read_bytes()!=(ROOT/'SHA256SUMS').read_bytes():raise RuntimeError('EXISTING_MANIFEST_DIFFERS_PRESERVED')
         return dict(status='unchanged',destination=str(destination),files=len(expected))
-    result=dict(status='preview',version='0.1.0',destination=str(destination),files=[n for n,_ in records]+['SHA256SUMS'],
+    result=dict(status='preview',version='0.1.1',destination=str(destination),files=[n for n,_ in records]+['SHA256SUMS'],
                 host_checks_required=['Skill installation available','MCP transport + tools enabled','safe local authentication or official OAuth','private persistent storage'],
                 install_dependencies=False,configure_mcp=False,network=False,global_config_changes=False,
                 next_step='Show this preview, obtain person confirmation, then rerun with --apply. MCP/auth are separate confirmed steps.')

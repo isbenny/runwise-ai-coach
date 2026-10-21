@@ -1,12 +1,13 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "github_repository": "https://github.com/isbenny/runwise-ai-coach",
-  "git_ref": "refs/tags/v0.1.0",
-  "release_url": "https://github.com/isbenny/runwise-ai-coach/releases/tag/v0.1.0",
+  "git_ref": "refs/tags/v0.1.1",
+  "release_url": "https://github.com/isbenny/runwise-ai-coach/releases/tag/v0.1.1",
   "public_license": null,
   "license_notice": "LICENSE",
   "rule_version": "core02-marathon-1",
-  "candidate_zip_sha256": "7297b4119d5efff2589f1242c24174160993c13f9c20e731c0c4e4894b5dabf9",
   "includes_user_data": false,
-  "includes_third_party_mcp": false
+  "includes_third_party_mcp": false,
+  "base_release": "v0.1.0",
+  "base_release_zip_sha256": "0fbe6adf1394d47ccc00ec15b8a72f62d7bc9bc96da631343b3e16bca883b484"
 }

@@ -22,3 +22,17 @@ profiles/
 plans/
 feedback/
 node_modules/
+
+# Local host settings, release staging and private preview outputs
+.workbuddy/
+.agents/
+.pytest_cache/
+work/
+dist/
+backups/
+*.zip
+*.zip.sha256
+mcp.json
+*-preview.json
+*.manifest.json
+mcp-before-*.json
